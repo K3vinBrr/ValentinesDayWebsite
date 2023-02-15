@@ -1,87 +1,107 @@
-* {
+    * {
 
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 3.5vw;
-    text-align: center;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 3.5vw;
+        text-align: center;
 
+    }
+
+    html {
+          background: linear-gradient(224deg, #ff00d4, #ffab00, #ff00d4);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+    }
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
 }
 
 
-body {
+    h1 {
 
-    background-image: linear-gradient(rgb(255, 0, 179), rgba(194, 30, 158, 0.692))
+        font-family: 'Gloria Hallelujah', cursive;
+        text-align: center;
+        background: -webkit-linear-gradient(rgb(51, 255, 0), rgb(0, 81, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0.2vw;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        font-size: 2em;
+        margin: 0 0 0 0;
+        
 
-}
+    }
 
+    p {
 
-h1 {
+        font-family: 'Nunito Sans', sans-serif; 
+        -webkit-text-stroke: 0.1vw;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        -webkit-text-fill-color: transparent;
+        margin: auto;
+        padding: auto;
 
-    font-family: 'Gloria Hallelujah', cursive;
-    text-align: center;
-    background: -webkit-linear-gradient(rgb(51, 255, 0), rgb(0, 81, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.2vw;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    font-size: 2em;
-    margin: 0 0 0 0;
+    }
+
+    .pink {
+
+        color: pink;
+        -webkit-text-stroke: 0.2vw;
+        -webkit-text-stroke-color: black;
+        font-size: 1.7em;
+        margin: auto;
+        padding: auto;
+
+    }
+
+    img { 
+
+        height: auto;
+        width: auto;
+
+    }
+
+    .img-right {
+
+        width: 20vw;
+        height: 25vw;
+        margin-top: 1.15vw;
+        right: 10vw;
+        position: absolute; 
+        z-index: -1; 
+
+    }
     
+    .img-left {
 
-}
+        width: 20vw;
+        height: 25vw;
+        margin-top: 1.15vw;
+        left: 10vw;
+        position: absolute; 
+        z-index: -1; 
 
-p {
+    }
 
-    font-family: 'Nunito Sans', sans-serif; 
-    -webkit-text-stroke: 0.1vw;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    -webkit-text-fill-color: transparent;
-    margin: auto;
-    padding: auto;
+    .small {
 
-}
+        font-size: 0.5em;
 
-.pink {
-
-    color: pink;
-    -webkit-text-stroke: 0.2vw;
-    -webkit-text-stroke-color: black;
-    font-size: 1.7em;
-    margin: auto;
-    padding: auto;
-
-}
-
-img { 
-
-    height: auto;
-    width: auto;
-
-}
-
-.img-right {
-
-    width: 20vw;
-    height: 25vw;
-    margin-top: 1.15vw;
-    right: 10vw;
-    position: absolute; 
-    z-index: -1; 
-
-}
-
-.img-left {
-
-    width: 20vw;
-    height: 25vw;
-    margin-top: 1.15vw;
-    left: 10vw;
-    position: absolute; 
-    z-index: -1; 
-
-}
-
-.small {
-
-    font-size: 0.5em;
-
-}
+    }
+    
