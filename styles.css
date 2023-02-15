@@ -12,6 +12,7 @@
     background-size: 600% 600%;
     -webkit-animation: AnimationName 14s ease infinite;
     -moz-animation: AnimationName 14s ease infinite;
+    -o-animation: AnimationName 14s ease infinite;
     animation: AnimationName 14s ease infinite;
        
     }
@@ -25,6 +26,13 @@
    
 }
 @-moz-keyframes AnimationName {
+   
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+   
+}
+@-o-keyframes AnimationName {
    
     0%{background-position:0% 99%}
     50%{background-position:100% 2%}
